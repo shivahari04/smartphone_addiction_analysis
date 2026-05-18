@@ -66,6 +66,6 @@ Mental and Physical Health
 
 #### Author
 
-###### Sivakami Visvanathan
+#### Sivakami Visvanathan
 **Aspiring Data Analyst**
 
