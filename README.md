@@ -21,12 +21,12 @@ Format : CSV
 #### Description
 
 This dataset focuses on understanding the patterns and effects of smartphone usage among teenagers, with a special focus on:
-Addiction Levels  
-Academic performance  
-Daily Usage Hours
-Sleep Hours
-Time distribution (social media, gaming, education)
-Mental and Physical Health
+Addiction Levels    
+Academic performance    
+Daily Usage Hours        
+Sleep Hours        
+Time distribution (social media, gaming, education)      
+Mental and Physical Health  
 
 
 **Research Questions**
@@ -66,6 +66,6 @@ Mental and Physical Health
 
 #### Author
 
-#### Sivakami Visvanathan
-**Aspiring Data Analyst**
+### Sivakami Visvanathan (Shiva)
+***Aspiring Data Analyst***
 
