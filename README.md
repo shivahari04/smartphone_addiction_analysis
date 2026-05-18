@@ -37,11 +37,11 @@ Mental and Physical Health
 
 **Key Findings** 
 
-***Daily usage is the strongest predictor of addiction*** — a correlation of **0.60** was found between daily usage hours and addiction level, the strongest relationship in the entire dataset
-***Addiction rises steeply with usage*** — addiction level climbs from ~4–5 (out of 10) at low usage, plateauing at the maximum score of 10 beyond 8 hours of daily use
-***Sleep has a weak negative effect on addiction*** — a correlation of **-0.22** suggests more sleep is slightly associated with lower addiction, but the relationship is too weak to draw firm conclusions
-***Academic performance shows no significant relationship*** with either addiction level or sleep hours — scores remained consistently between 70–80 regardless of usage or sleep patterns
-***Usage is normally distributed*** — most students use their phones for around 5 hours per day, with the majority falling in the 3–8 hour range
+***Daily usage is the strongest predictor of addiction*** — a correlation of **0.60** was found between daily usage hours and addiction level, the strongest relationship in the entire dataset     
+***Addiction rises steeply with usage*** — addiction level climbs from ~4–5 (out of 10) at low usage, plateauing at the maximum score of 10 beyond 8 hours of daily use   
+***Sleep has a weak negative effect on addiction*** — a correlation of **-0.22** suggests more sleep is slightly associated with lower addiction, but the relationship is too weak to draw firm conclusions  
+***Academic performance shows no significant relationship*** with either addiction level or sleep hours — scores remained consistently between 70–80 regardless of usage or sleep patterns   
+***Usage is normally distributed*** — most students use their phones for around 5 hours per day, with the majority falling in the 3–8 hour range   
 
 ##### Visualizations
 
