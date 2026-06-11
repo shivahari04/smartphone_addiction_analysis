@@ -54,7 +54,6 @@ Mental and Physical Health
 | Correlation Matrix | Heatmap |
 
 
-
 **Limitations**
 
 - Dataset source is unclear and may be synthetic
@@ -62,9 +61,12 @@ Mental and Physical Health
 - Self-reported addiction scores may be subjective
 
 
+
+
 *This project was developed with the assistance of Claude AI as a guided learning tool — used for understanding Python concepts and troubleshooting.*
 
-#### Author
+
+### Author 
 ### Sivakami Visvanathan (Shiva)
 ***Aspiring Data Analyst***
 
