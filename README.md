@@ -16,7 +16,7 @@ Format : CSV
 ├── Data/
 |      └── teen_screentime_addiction.csv                    # raw dataset (CSV)
 ├── Notebook/
-│   └── teen_screentime_addiction.ipynb
+│   └── teen_screentime_addiction.ipynb      
 ├── requirements.txt
 └── README.md
 
@@ -30,14 +30,15 @@ Format : CSV
 - Jupyter Notebook
 
 
-#### How to Use
+### How to Use
+
 1. Clone [this repository](https://github.com/shivahari04/Teen_screentime_addiction_analysis).
 2. Install the required Python packages:  
    pip install -r requirements.txt
 3. Open `screen_addiction.ipynb` in Jupyter Notebook 
 
 
-#### Description
+### Description
 
 This dataset focuses on understanding the patterns and effects of smartphone usage among teenagers, with a special focus on:
 
@@ -63,7 +64,7 @@ Mental and Physical Health
 ***Academic performance shows no significant relationship*** with either addiction level or sleep hours — scores remained consistently between 70–80 regardless of usage or sleep patterns   
 ***Usage is normally distributed*** — most students use their phones for around 5 hours per day, with the majority falling in the 3–8 hour range   
 
-##### Visualizations
+**Visualizations**
 
 | Chart | Type |
 |:-------:|:------:|
@@ -79,7 +80,6 @@ Mental and Physical Health
 - Dataset source is unclear and may be synthetic
 - No demographic data (race, ethnicity, socioeconomic status) limits generalization
 - Self-reported addiction scores may be subjective
-
 
 
 
