@@ -4,7 +4,7 @@
 
 This project explores how daily smartphone usage affects addiction levels and whether screen time or sleep habits have any measurable impact on academic performance among teenagers. The analysis was conducted using Python and focuses on identifying patterns through data visualization and correlation analysis.
 
-***Survey based on 3000 Teenage Students - over 3 month***
+***Survey based on 3000 Teenage Students - over 3 months***
 [Source: Kaggle.com](https://www.kaggle.com/datasets/sumedh1507/teen-phone-addiction)
 Format : CSV
 
@@ -13,9 +13,10 @@ Format : CSV
 
 ```
 
-├── Data/                  # raw dataset (CSV)
+├── Data/
+|      └── teen_screentime_addiction.csv                    # raw dataset (CSV)
 ├── Notebook/
-│   └── screen_addiction.ipynb
+│   └── teen_screentime_addiction.ipynb
 ├── requirements.txt
 └── README.md
 
@@ -23,10 +24,10 @@ Format : CSV
 
 ### Tech Stack
 
-. Python 3
-. pandas, numpy
-. matplotlib, seaborn
-. Jupyter Notebook
+- Python 3
+- pandas, numpy
+- matplotlib, seaborn
+- Jupyter Notebook
 
 
 #### How to Use
@@ -76,7 +77,7 @@ Mental and Physical Health
 **Limitations**
 
 - Dataset source is unclear and may be synthetic
-- No demographic data (race, ethnicity, socioeconomic status) limits generalisability
+- No demographic data (race, ethnicity, socioeconomic status) limits generalization
 - Self-reported addiction scores may be subjective
 
 
