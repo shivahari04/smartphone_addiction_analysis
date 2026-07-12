@@ -1,6 +1,5 @@
 ## Teen Smartphone Addiction - Exploratory Data Analysis
 
-
 ### Overview
 
 This project explores how daily smartphone usage affects addiction levels and whether screen time or sleep habits have any measurable impact on academic performance among teenagers. The analysis was conducted using Python and focuses on identifying patterns through data visualization and correlation analysis.
@@ -19,6 +18,13 @@ Format : CSV
 └── README.md
 
 
+### Tech Stack
+
+. Python 3
+. pandas, numpy
+. matplotlib, seaborn
+. Jupyter Notebook
+
 
 #### How to Use
 1. Clone [this repository](https://github.com/shivahari04/Teen_screentime_addiction_analysis).
@@ -30,6 +36,7 @@ Format : CSV
 #### Description
 
 This dataset focuses on understanding the patterns and effects of smartphone usage among teenagers, with a special focus on:
+
 Addiction Levels    
 Academic performance    
 Daily Usage Hours        
