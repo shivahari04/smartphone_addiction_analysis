@@ -11,12 +11,15 @@ Format : CSV
 
 ### Repo Structure 
 
+```
+
 ├── Data/                  # raw dataset (CSV)
 ├── Notebook/
 │   └── screen_addiction.ipynb
 ├── requirements.txt
 └── README.md
 
+```
 
 ### Tech Stack
 
