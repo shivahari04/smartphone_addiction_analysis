@@ -28,10 +28,10 @@ Key Fields: Age, Gender, Daily Screentime hours, Social Media Usage hours, Gamin
 
 ├── Data/
 │   ├── teen_screentime_addiction.csv
-│   └── global_mobile_addiction.csv
+│   └── global_smartphone_addiction.csv
 ├── Notebook/
 │   ├── teen_screentime_addiction.ipynb
-│   ├── global_mobile_addiction.ipynb
+│   ├── global_smartphone_addiction.ipynb
 │   └── merged_analysis.ipynb
 ├── functions.py              ← shared functions live here
 ├── requirements.txt

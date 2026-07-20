@@ -1,4 +1,5 @@
-# Function to check duplicates in both datasets and removing them if there is any.
+# Function 1: Check duplicates in both datasets and removing them if there is any.
+
 
 import pandas as pd
 
