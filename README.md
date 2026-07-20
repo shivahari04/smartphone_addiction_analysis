@@ -1,12 +1,25 @@
-## Teen Smartphone Addiction - Exploratory Data Analysis
+## Smartphone Addiction Across Generations: An Analysis of Usage Pattern and Mental Health
 
-### Overview
+### Project Overview
+This project investigates the relationship between daily smartphone usage, addiction levels, sleep
+habits, and health outcomes across two datasets: a teen-focused survey of 3,000 students and a
+broader mobile addiction dataset of 3,000 respondents spanning multiple countries, occupations,
+and age groups. By combining these sources into a unified relational database, the analysis aims
+to identify patterns that are consistent across different age groups.
 
-This project explores how daily smartphone usage affects addiction levels and whether screen time or sleep habits have any measurable impact on academic performance among teenagers. The analysis was conducted using Python and focuses on identifying patterns through data visualization and correlation analysis.
+#### Data Sources 
 
-***Survey based on 3000 Teenage Students - over 3 months***
-[Source: Kaggle.com](https://www.kaggle.com/datasets/sumedh1507/teen-phone-addiction)
-Format : CSV
+**Dataset 1 : Teen Screentime usage and Addiction impact (3000 rows in CSV format)**   
+Source: Kaggle.com – dataset uploaded by Sumedh Patil
+Link : https://www.kaggle.com/datasets/sumedh1507/teen-phone-addiction
+
+Key Fields: Age, Gender, Daily Usage hours, Addiction level, Sleep hours, Academic performance, Anxiety level, Time on Social media, Time on Gaming, Exercise hours performance, Anxiety level, Time on Social media, Time on Gaming, Exercise hours
+
+**Dataset 2: Global Mobile Addiction (3000 rows in CSV format)**       
+Source: Kaggle.com – dataset uploaded by Khushi Yadav
+Link: https://www.kaggle.com/datasets/khushikyad001/global-mobile-phone-addiction-dataset
+
+Key Fields: Age, Gender, Daily Screentime hours, Social Media Usage hours, Gaming Usage hours,Streaming Usage hours, Sleep hours, Physical Activity hours, Mental Health Score, Depression Score, Anxiety Score, Self-reported addiction level
 
 
 ### Repo Structure 
@@ -14,9 +27,13 @@ Format : CSV
 ```
 
 ├── Data/
-|      └── teen_screentime_addiction.csv                    # raw dataset (CSV)
+│   ├── teen_screentime_addiction.csv
+│   └── global_mobile_addiction.csv
 ├── Notebook/
-│   └── teen_screentime_addiction.ipynb      
+│   ├── teen_screentime_addiction.ipynb
+│   ├── global_mobile_addiction.ipynb
+│   └── merged_analysis.ipynb
+├── functions.py              ← shared functions live here
 ├── requirements.txt
 └── README.md
 
@@ -32,10 +49,10 @@ Format : CSV
 
 ### How to Use
 
-1. Clone [this repository](https://github.com/shivahari04/Teen_screentime_addiction_analysis).
+1. Clone [this repository](https://github.com/shivahari04/smartphone_addiction_analysis).
 2. Install the required Python packages:  
    pip install -r requirements.txt
-3. Open `screen_addiction.ipynb` in Jupyter Notebook 
+3. Open Notebook folder
 
 
 ### Description
