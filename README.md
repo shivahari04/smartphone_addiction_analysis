@@ -41,10 +41,13 @@ Key Fields: Age, Gender, Daily Screentime hours, Social Media Usage hours, Gamin
 
 ### Tech Stack
 
-- Python 3
+- Python, SQL
 - pandas, numpy
 - matplotlib, seaborn
-- Jupyter Notebook
+- Jupyter Notebook, Markdown
+- Virtual Environment
+- Git, Github
+
 
 
 ### How to Use
