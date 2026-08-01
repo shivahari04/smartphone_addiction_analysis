@@ -34,7 +34,7 @@ def combined_datasets(df1, df2):
     
     duplicate_ids = concat_df['User_ID'].duplicated().sum()
     if duplicate_ids > 0:
-        print(f"Warning: {duplicate_ids} duplicate User_ID values found after concatenation.")
+        print(f"Note: {duplicate_ids} duplicate User_ID values found after concatenation.")
     else:
         print("Concatenated successful — no duplicate User_ID values.")
     
