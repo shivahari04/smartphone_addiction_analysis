@@ -19,7 +19,7 @@ Key Fields: Age, Gender, Daily Usage hours, Addiction level, Sleep hours, Academ
 Source: Kaggle.com – dataset uploaded by Khushi Yadav
 Link: https://www.kaggle.com/datasets/khushikyad001/global-mobile-phone-addiction-dataset
 
-Key Fields: Age, Gender, Daily Screentime hours, Social Media Usage hours, Gaming Usage hours,Streaming Usage hours, Sleep hours, Physical Activity hours, Mental Health Score, Depression Score, Anxiety Score, Self-reported addiction level
+Key Fields: Age, Gender, Daily Screentime hours, Social Media Usage hours, Gaming Usage hours, Streaming Usage hours, Sleep hours, Physical Activity hours, Mental Health Score, Depression Score, Anxiety Score, Self-reported addiction level
 
 
 ### Repo Structure 
@@ -28,7 +28,10 @@ Key Fields: Age, Gender, Daily Screentime hours, Social Media Usage hours, Gamin
 
 ├── Data/
 │   ├── teen_screentime_addiction.csv
-│   └── global_smartphone_addiction.csv
+|   ├── teen_screentime_addiction_cleaned.csv
+|   ├── global_smartphone_addiction.csv
+│   └── global_smartphone_addiction_cleaned.csv
+|
 ├── Notebook/
 │   ├── teen_screentime_addiction.ipynb
 │   ├── global_smartphone_addiction.ipynb
@@ -53,9 +56,19 @@ Key Fields: Age, Gender, Daily Screentime hours, Social Media Usage hours, Gamin
 ### How to Use
 
 1. Clone [this repository](https://github.com/shivahari04/smartphone_addiction_analysis).
-2. Install the required Python packages:  
-   pip install -r requirements.txt
-3. Open Notebook folder
+
+2. Create and activate a virtual environment (Via terminal Gitbash)
+   **Windows**
+      python -m venv venv
+      source venv/Scripts/activate
+   **macOS/Linux**
+      python3 -m venv venv
+      source venv/bin/activate
+
+3. Install dependencies
+      pip install -r requirements.txt
+
+4. Open Notebook folder
 
 
 ### Description
