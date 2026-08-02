@@ -26,17 +26,31 @@ Key Fields: Age, Gender, Daily Screentime hours, Social Media Usage hours, Gamin
 
 ```
 
+smartphone_addiction_analysis/
+│
 ├── Data/
-│   ├── teen_screentime_addiction.csv
-|   ├── teen_screentime_addiction_cleaned.csv
-|   ├── global_smartphone_addiction.csv
-│   └── global_smartphone_addiction_cleaned.csv
-|
+│   ├── teen_screentime_addiction.csv                 
+│   ├── teen_screentime_addiction_cleaned.csv          # cleaned dataset 1
+│   ├── global_smartphone_addiction.csv                
+│   ├── global_smartphone_addiction_cleaned.csv        # cleaned dataset 2
+│   └── smartphone_analysis.db                         # SQLite database
+│
+├── images/
+│   ├── Entity Relational Diagram.png
+│   ├── global_smartphone_heatmap.png
+│   ├── global_smartphone_histogram.png
+│   ├── teen_smartphone_heatmap.png
+│   ├── teen_smartphone_histogram.png
+│   ├── teen_smartphone_linechart1.png
+│   ├── teen_smartphone_linechart2.png
+│   └── teen_smartphone_scatterplot.png
+│
 ├── Notebook/
 │   ├── teen_screentime_addiction.ipynb
 │   ├── global_smartphone_addiction.ipynb
-│   └── merged_analysis.ipynb
-├── functions.py              ← shared functions live here
+│   └── combined_analysis.ipynb
+│
+├── functions.py              ← shared functions
 ├── requirements.txt
 └── README.md
 
