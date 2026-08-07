@@ -36,7 +36,7 @@ smartphone_addiction_analysis/
 │   └── smartphone_analysis.db                         # SQLite database
 │
 ├── images/
-│   ├── Entity Relational Diagram.png
+│   ├── entity_relational_diagram.png
 │   ├── global_smartphone_heatmap.png
 │   ├── global_smartphone_histogram.png
 │   ├── teen_smartphone_heatmap.png
