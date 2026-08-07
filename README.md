@@ -36,7 +36,7 @@ smartphone_addiction_analysis/
 │   └── smartphone_analysis.db                         # SQLite database
 │
 ├── images/
-│   ├── entity_relational_diagram.png
+│   ├── entity_relationship_diagram.png
 │   ├── global_smartphone_heatmap.png
 │   ├── global_smartphone_histogram.png
 │   ├── teen_smartphone_heatmap.png
@@ -65,7 +65,9 @@ smartphone_addiction_analysis/
 - Virtual Environment
 - Git, Github
 
+### Entity Relationship Diagram
 
+![Entity Relationship Diagram](images/entity_relationship_diagram.png)
 
 ### How to Use
 
